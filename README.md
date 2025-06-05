@@ -40,6 +40,7 @@ O simulador utiliza as seguintes classes em Java:
 - **FileSystemSimulator**: Controla as operações de alto nível como criar, copiar, mover, listar e deletar arquivos/diretórios.
 - **FileSystemGUI**: Permite a visualização do sistema de arquivos por meio de uma interface gráfica desenvolvida com Swing.
 - **Journal**: Responsável por registrar cada operação executada no sistema.
+- **TreeItem**: Representa um item na árvore de arquivos.
 
 ### 🔹 Implementação do Journaling
 
@@ -94,9 +95,9 @@ Interface gráfica desenvolvida com Java Swing para interação com o simulador 
 
 ## ▶️ Como Executar
 
-#### 1. Baixe este repositório.
-
-#### 2. Execute a classe FileSystemGUI.
+- Baixe este repositório
+- Acesse a pasta `src\main\java\com\filesystem`
+- Execute a classe FileSystemGUI
 
 > A aplicação abrirá uma janela com visualização em árvore do sistema de arquivos.
 
