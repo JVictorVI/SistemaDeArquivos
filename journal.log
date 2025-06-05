@@ -1,0 +1,30 @@
+2025-06-04 22:04:10 CREATE_DIR root movies
+2025-06-04 22:04:19 CREATE_DIR root games
+2025-06-04 22:04:24 CREATE_DIR root music
+2025-06-04 22:04:32 CREATE_DIR root books
+2025-06-04 22:04:38 RENAME_DIR root movies filmes
+2025-06-04 22:04:43 RENAME_DIR root games jogos
+2025-06-04 22:04:48 RENAME_DIR root music musicas
+2025-06-04 22:05:19 RENAME_DIR root books livros
+2025-06-04 22:05:25 CREATE_DIR root/filmes a��o
+2025-06-04 22:05:43 CREATE_FILE root/filmes/a��o avengers2012.mkv
+2025-06-04 22:05:59 RENAME_DIR root/filmes a��o action
+2025-06-04 22:06:16 CREATE_FILE root/jogos watch_dogs2.exe
+2025-06-04 22:06:31 CREATE_DIR root/jogos battlefield 1.exe
+2025-06-04 22:06:39 RENAME_FILE root/jogos watch_dogs2.exe watch dogs2.exe
+2025-06-04 22:06:53 RENAME_DIR root/jogos battlefield 1.exe battlefield_1.exe
+2025-06-04 22:06:57 DELETE_DIR root/jogos battlefield_1.exe
+2025-06-04 22:07:13 CREATE_FILE root/jogos battlefield 1
+2025-06-04 22:07:22 RENAME_FILE root/jogos battlefield 1 battlefield 1.exe
+2025-06-04 22:07:32 RENAME_FILE root/jogos watch dogs2.exe watch dogs 2.exe
+2025-06-04 22:07:50 CREATE_DIR root/musicas hino do corinthians.mp3
+2025-06-04 22:07:57 DELETE_DIR root/musicas hino do corinthians.mp3
+2025-06-04 22:08:07 CREATE_FILE root/musicas hino do corinthians.mp3
+2025-06-04 22:10:04 CREATE_FILE root/livros receitas de lasanha 1923.pdf
+2025-06-04 22:11:04 CREATE_FILE root call of duty 32.exe
+2025-06-04 22:11:16 COPY_FILE root call of duty 32.exe root/jogos
+2025-06-04 22:11:22 DELETE_FILE root call of duty 32.exe
+2025-06-04 22:14:35 CREATE_DIR root fotos
+2025-06-04 22:15:34 CREATE_DIR root/fotos familia
+2025-06-04 22:15:44 CREATE_DIR root/fotos unifordawdawd
+2025-06-04 22:15:55 RENAME_DIR root/fotos unifordawdawd formatura unifor

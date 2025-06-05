@@ -1,0 +1,14 @@
+[DIR] root/filmes
+[DIR] root/filmes/action
+[FILE] root/filmes/action/avengers2012.mkv
+[DIR] root/jogos
+[FILE] root/jogos/watch dogs 2.exe
+[FILE] root/jogos/battlefield 1.exe
+[FILE] root/jogos/call of duty 32.exe
+[DIR] root/musicas
+[FILE] root/musicas/hino do corinthians.mp3
+[DIR] root/livros
+[FILE] root/livros/receitas de lasanha 1923.pdf
+[DIR] root/fotos
+[DIR] root/fotos/familia
+[DIR] root/fotos/formatura unifor
