@@ -2,6 +2,10 @@
 
 Este projeto implementa um simulador de sistema de arquivos em Java, com suporte a **interface gráfica (GUI) usando Swing**, **persistência de estado** e **journaling de operações**.
 
+# Repositório GitHub
+
+- https://github.com/JVictorVI/SistemaDeArquivos
+
 ## Dupla
 
 - Amanda Evellin de Sousa Viana | 2315774
@@ -69,7 +73,7 @@ Responsável por:
 
 Gerencia o arquivo `journal.log`, registrando todas as operações com carimbo de data/hora e dados relevantes.
 
-### 🖥️ Classe FileSystemGUI
+### 🖥️ Classe `FileSystemGUI`
 
 Interface gráfica desenvolvida com Java Swing para interação com o simulador de sistema de arquivos.
 
@@ -79,7 +83,9 @@ Interface gráfica desenvolvida com Java Swing para interação com o simulador 
 - Listar conteúdo de diretórios;
 - Visualizar o conteúdo do arquivo de journal;
 - Visualizar a estrutura atual salva no base.txt.
-  🔹 Organização:
+
+🔹 Organização:
+
 - Interface amigável com campos de entrada, botões de ação e áreas de exibição de resultados e logs;
 - Cada ação na interface aciona os métodos da classe FileSystemSimulator;
 - Mensagens de sucesso e erro são exibidas ao usuário em tempo real.
